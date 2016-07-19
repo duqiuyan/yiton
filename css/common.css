@@ -23,9 +23,8 @@
 .top-menu-bar a{float: left;}
 .top-menu-bar a img{margin-top: 8px;}
 .top-menu-bar .top-menu-right{line-height: 80px;text-align: center;}
-.top-menu-bar .top-menu-right ul li{float: left;height: 100%;}
+.top-menu-bar .top-menu-right ul li{float: left;height: 100%;border-left:1px solid #1675c5;border-right:1px solid #1675c5;margin-left: -1px;}
 .top-menu-bar .top-menu-right ul li a{width: 110px; display: inline-block;color: #FFF;}
-.top-menu-bar .top-menu-right i{width: 1px;background: url(../images/icon/line.png);padding: 30px 0px 30px 1px;}
 .top-menu-bar .top-menu-right .active {background-color: #004ea6;}
 .top-menu-bar .top-menu-right ul li a:hover {background-color: #004ea6;}
 
@@ -43,7 +42,7 @@
 
 
 /*头部模块*/
-.header{width: 90%;margin: 0px auto;height: 800px; background-color: #aabbcc;}
+.header{width: 100%;margin: 0px auto; background-color: #aabbcc;}
 
 
 /*内容模块*/
