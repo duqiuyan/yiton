@@ -1,0 +1,47 @@
+
+/*设置背景宽度*/
+.main{max-width:1000px;margin: 0px auto;min-height:100%;background-color:#262626;position: relative;}
+.fl {float: left;_display: inline;}
+.fr {float: right;_display: inline;}
+.hide{display:none;}
+.commWidth{width: 1000px;}
+
+/*悬浮条*/
+.top-nav-wrap {width: 100%;min-width: 1000px;z-index: 9999;position: absolute;top: 0;left: 0;}
+.top-nav-wrap-fix {position: fixed;top: 0;_position: absolute;_top: expression(eval(document.documentElement.scrollTop));left: 0;}
+.top-nav {height: 41px; border-top: 3px solid #1780d3;border-bottom: 1px solid #edeef0;background-color: #e5e5e5;}
+.top-nav .nav-bar{background-color: #121212; margin: 0px auto;text-align:center;}
+.top-nav .nav-bar .nav_left{float: left;line-height: 41px;}
+.top-nav .nav-bar .nav_right{float: right;line-height: 41px;}
+.top-nav .nav-bar .nav_left a{color: #005eaf; }
+.top-nav .nav-bar .nav_right a{margin-left: 15px;}
+
+/*菜单栏*/
+.top-menu-nav{background-color: #005eaf;height: 80px;margin-top: 44px;}
+.top-menu-bar{background-color: #343434;margin: 0px auto;}
+.top-menu-bar a{float: left;margin-top: 8px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*头部模块*/
+.header{width: 90%;margin: 0px auto;height: 800px; background-color: #aabbcc;}
+
+
+/*内容模块*/
+.content{width: 100%;height: 1400px;background-color: #555;}
+
+
+/*底部模块*/
+.footer{width: 100%;background-color: #797979;}
