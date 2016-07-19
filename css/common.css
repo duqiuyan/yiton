@@ -1,13 +1,14 @@
 
 /*设置背景宽度*/
-.main{max-width:1000px;margin: 0px auto;min-height:100%;background-color:#262626;position: relative;}
+.main{max-width:1160px;margin: 0px auto;min-height:100%;background-color:#262626;position: relative;}
 .fl {float: left;_display: inline;}
 .fr {float: right;_display: inline;}
 .hide{display:none;}
-.commWidth{width: 1000px;}
+.commWidth{width: 1160px;}
+.commCenter{margin: 0px auto;}
 
 /*悬浮条*/
-.top-nav-wrap {width: 100%;min-width: 1000px;z-index: 9999;position: absolute;top: 0;left: 0;}
+.top-nav-wrap {width: 100%;min-width: 1160px;z-index: 9999;position: absolute;top: 0;left: 0;}
 .top-nav-wrap-fix {position: fixed;top: 0;_position: absolute;_top: expression(eval(document.documentElement.scrollTop));left: 0;}
 .top-nav {height: 41px; border-top: 3px solid #1780d3;border-bottom: 1px solid #edeef0;background-color: #e5e5e5;}
 .top-nav .nav-bar{background-color: #121212; margin: 0px auto;text-align:center;}
@@ -18,9 +19,15 @@
 
 /*菜单栏*/
 .top-menu-nav{background-color: #005eaf;height: 80px;margin-top: 44px;}
-.top-menu-bar{background-color: #343434;margin: 0px auto;}
-.top-menu-bar a{float: left;margin-top: 8px;}
-
+.top-menu-bar{margin: 0px auto;text-align: center;}
+.top-menu-bar a{float: left;}
+.top-menu-bar a img{margin-top: 8px;}
+.top-menu-bar .top-menu-right{line-height: 80px;text-align: center;}
+.top-menu-bar .top-menu-right ul li{float: left;height: 100%;}
+.top-menu-bar .top-menu-right ul li a{width: 110px; display: inline-block;color: #FFF;}
+.top-menu-bar .top-menu-right i{width: 1px;background: url(../images/icon/line.png);padding: 30px 0px 30px 1px;}
+.top-menu-bar .top-menu-right .active {background-color: #004ea6;}
+.top-menu-bar .top-menu-right ul li a:hover {background-color: #004ea6;}
 
 
 
